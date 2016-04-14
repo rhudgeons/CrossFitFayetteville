@@ -1,0 +1,31 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url('cff_background2.jpg');
+  background-size:     inherit;
+  background-repeat:   no-repeat;
+  background-position: 50% 30%;
+  padding-top: 70px;
+}
+
+.patua {
+	font-family: 'Patua One', patua-one;
+	color: white;
+}
+
+.jose {
+	font-family: 'Josefin Slab', josefin-slab;
+	color: white;
+}
+
+.vertical-center {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  resize: vertical;
+  overflow: auto;
+}
